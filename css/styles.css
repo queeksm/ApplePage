@@ -1,10 +1,9 @@
-.navbar{
+.navbar {
   position: absolute;
   width: 100%;
   top: 67px;
   display: flex;
   justify-content: center;
-  
 }
 
 .navbar ul {
@@ -13,7 +12,7 @@
   align-content: center;
   width: 974px;
   height: 36px;
-  background-image: linear-gradient(#acacac, #5d5d5d ,#acacac);
+  background-image: linear-gradient(#acacac,#5d5d5d,#acacac);
   padding: 0;
   border-radius: 3px;
 }
@@ -23,7 +22,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 0.6px solid #5d5d5d ;
+  border: 0.6px solid #5d5d5d;
   width: 106px;
 }
 
@@ -37,23 +36,23 @@
   border-radius: 3px;
 }
 
-.navbar ul .apple a img{
+.navbar ul .apple a img {
   width: 17px;
   height: 20px;
 }
 
-.navbar ul .search{
+.navbar ul .search {
   padding: 10px;
   border-radius: 3px;
 }
 
 .navbar ul .search input {
-  width: 100px;  
-  background-image: linear-gradient(#8b8b8b, #5d5d5d ,#8b8b8b);
-  border-radius: 15px;  
+  width: 100px;
+  background-image: linear-gradient(#8b8b8b,#5d5d5d,#8b8b8b);
+  border-radius: 15px;
 }
 
-.navbar ul .search img{
+.navbar ul .search img {
   width: 10px;
   height: 10px;
 }
@@ -68,7 +67,7 @@ main {
 
 main .front{
   position: absolute;
-  top: 0px;
+  top: 0;
   bottom: 292px;
   height: 689px;
   min-width: 1440px;
@@ -113,7 +112,7 @@ main .down .rcenter {
 }
 
 main .down .right {
-  background: url(../img/promo_supplier_responsibility.jpg)no-repeat;
+  background: url(../img/promo_supplier_responsibility.jpg) no-repeat;
 }
 
 footer {
@@ -126,11 +125,11 @@ footer {
 }
 
 footer .fSection {
-  width: 720px;  
-  display: flex;  
+  width: 720px;
+  display: flex;
   margin: 0;
 }
-footer .sectionleft{
+footer .sectionleft {
   flex-direction: column;
 }
 
@@ -139,7 +138,7 @@ footer .fSection .upper {
   margin-left: 39px;
 }
 
-footer .fSection .upper,.lower {
+footer .fSection .upper, .lower {
   width: 100%;
   text-align: center;
   font-size: 10px;
@@ -147,23 +146,23 @@ footer .fSection .upper,.lower {
 }
 
 footer .fSection .upper a,.lower a {
-  color: rgb(0, 98, 255);  
+  color: rgb(0, 98, 255);
 }
 
-footer .fSection ul{
+footer .fSection ul {
   display: flex;
-  align-content: center;  
+  align-content: center;
 }
 
-footer .fSection ul li{
+footer .fSection ul li {
   font-size: 10px;
-  width:auto;
+  width: auto;
   list-style-type: none;
   margin: 5px;
   color: rgb(0, 98, 255);
 }
 
-footer .fSection ul li img{
+footer .fSection ul li img {
   width: 13px;
   height: 13px;
 }
