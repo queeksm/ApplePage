@@ -12,7 +12,7 @@
   align-content: center;
   width: 974px;
   height: 36px;
-  background-image: linear-gradient(#acacac, #5d5d5d,#acacac);
+  background-image: linear-gradient(#acacac ,#5d5d5d ,#acacac);
   padding: 0;
   border-radius: 3px;
 }
@@ -26,14 +26,14 @@
   width: 106px;
 }
 
-footer .fSection .upper a ,.lower a {
-  color: rgb(0, 98, 255);
-}
-
 .navbar ul li a {
   color: white;
   text-decoration: none;
   font-size: 12px;
+}
+
+footer .fSection .lower a ,.upper a {
+  color: rgb(0, 98, 255);
 }
 
 footer .fSection ul li img {
