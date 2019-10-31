@@ -6,10 +6,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> -->
 
-  <h3 align="center">New York times article</h3>
+  <h3 align="center">Apple main page</h3>
 
   <p align="center">
-    Project developed with HTML5 and CSS3 that shows a clone for a NYT article.
+    Project developed with HTML5 and CSS3 that shows a clone of the apple main page.
     <br />
     <a href="https://github.com/queeksm/NYT_article"><strong>Explore the docs »</strong></a>
     <br />
@@ -37,7 +37,7 @@
 <!-- [![Product Name Screen Shot][product-screenshot]](img/logoRepo.png) -->
 
 This is a clone page that has a pretty clean style with some responsive features.
-This is a clone of a NYT article 
+This is a clone of an apple page 
 
 ### Built With
 The project was developed using these tools and technologies.
@@ -49,7 +49,6 @@ The project was developed using these tools and technologies.
 <!-- CONTACT -->
 ## Contact
 
-Yair Fernando Facio Fraga - [YairFernando67](https://github.com/YairFernando67) - yair.facio11@gmail.com  
 Andres Felipe Perez - [queeksm](https://github.com/queeksm) - queeksm@gmail.com
 
 Project Link: [https://github.com/queeksm/NYT_article](https://github.com/queeksm/NYT_article)
