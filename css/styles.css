@@ -26,18 +26,28 @@
   width: 106px;
 }
 
+footer .fSection .upper a ,.lower a {
+  color: rgb(0, 98, 255);
+}
+
 .navbar ul li a {
   color: white;
   text-decoration: none;
   font-size: 12px;
 }
 
-footer .fSection .upper a ,.lower a {
-  color: rgb(0, 98, 255);
+footer .fSection ul li img {
+  width: 13px;
+  height: 13px;
 }
 
 .navbar ul .apple {
   border-radius: 3px;
+}
+
+.navbar ul .search img {
+  width: 10px;
+  height: 10px;
 }
 
 .navbar ul .apple a img {
@@ -54,11 +64,6 @@ footer .fSection .upper a ,.lower a {
   width: 100px;
   background-image: linear-gradient(#8b8b8b,#5d5d5d,#8b8b8b);
   border-radius: 15px;
-}
-
-.navbar ul .search img {
-  width: 10px;
-  height: 10px;
 }
 
 main {
@@ -163,7 +168,3 @@ footer .fSection ul li {
   color: rgb(0, 98, 255);
 }
 
-footer .fSection ul li img {
-  width: 13px;
-  height: 13px;
-}
