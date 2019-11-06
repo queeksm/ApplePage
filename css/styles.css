@@ -107,14 +107,14 @@ main .front {
   top: 0;
   bottom: 292px;
   height: 689px;
-  min-width: 1440px;
+  min-width: 1040px;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
 main .front .billboard {
-  width: 1440px;
+  max-width: 1440px;  
   height: 100%;
   max-height: 689px;
   z-index: 0;
@@ -162,33 +162,41 @@ main .front .billboard .front-text .abot:hover {
 
 main .down {
   position: absolute;
-  top: 689px;
-  width: 1440px;
-  height: 200px;
-  display: flex;
+  top: 689px;  
+  height: 200px;  
+  max-width: 1440px;
+  width: 100%;
   z-index: 5;
+  margin-top: 1px;
 }
 
-main .down div {
-  height: 100%;
-  width: 360px;
-  margin-top: 2px;
+main .down a {
+  position: relative;
+  z-index: 1;
+  float: left;
+  overflow: hidden;
+  margin: 0;
+  width: 25%;
+  height: 200px;
 }
 
-main .down .left {
-  background: url(../img/promo_iphone5s.jpg) no-repeat;
+main .down a div {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
 }
 
-main .down .lcenter {
-  background: url(../img/promo_iphone5c.jpg) no-repeat;
-}
-
-main .down .rcenter {
-  background: url(../img/promo_30_years.jpg) no-repeat;
-}
-
-main .down .right {
-  background: url(../img/promo_supplier_responsibility.jpg) no-repeat;
+main .down img {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  margin-left: -182px;
 }
 
 footer {
