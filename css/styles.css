@@ -50,6 +50,16 @@ footer .fSection ul li {
   background-image: linear-gradient(#acacac, #5d5d5d, #acacac);
 }
 
+main .down a {
+  position: relative;
+  z-index: 1;
+  float: left;
+  overflow: hidden;
+  margin: 0;
+  width: 25%;
+  height: 200px;
+}
+
 .navbar ul li a {
   color: white;
   text-decoration: none;
@@ -62,6 +72,13 @@ footer .fSection .lower a {
 
 footer .fSection .upper a {
   color: rgb(0, 98, 255);
+}
+
+main .down img {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  margin-left: -182px;
 }
 
 footer .fSection ul li img {
@@ -114,7 +131,7 @@ main .front {
 }
 
 main .front .billboard {
-  max-width: 1440px;  
+  max-width: 1440px;
   height: 100%;
   max-height: 689px;
   z-index: 0;
@@ -162,22 +179,12 @@ main .front .billboard .front-text .abot:hover {
 
 main .down {
   position: absolute;
-  top: 689px;  
-  height: 200px;  
+  top: 689px;
+  height: 200px;
   max-width: 1440px;
   width: 100%;
   z-index: 5;
   margin-top: 1px;
-}
-
-main .down a {
-  position: relative;
-  z-index: 1;
-  float: left;
-  overflow: hidden;
-  margin: 0;
-  width: 25%;
-  height: 200px;
 }
 
 main .down a div {
@@ -190,13 +197,6 @@ main .down a div {
   display: block;
   overflow: hidden;
   cursor: pointer;
-}
-
-main .down img {
-  position: absolute;
-  z-index: 1;
-  left: 50%;
-  margin-left: -182px;
 }
 
 footer {
